@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="h-100 m-0">
+
+    <!-- Start your project here-->
+    <div class="row align-items-center justify-content-center h-100 w-100 m-0">
+        <div class="col-12 text-center">
+            <p class="p">HELLO</p>
+            <button type="button" class="btn btn-default" onclick="pop()">CLICK HERE</button>
+        </div>
+        <div class="col-12 position-fixed main">
+            <div class="form rounded">
+                <div class="header">
+                    <p class="float-left">WELCOME</p>
+                    <span class="float-right" onclick="popdown()"><i class="fas fa-times"></i></span>
+                </div>
+                <div class="formMain">
+                    <form action="">
+                        <p>ENTER UR NAME:</p>
+                        <div class="w-100"></div>
+                        <input type="text" placeholder="Enter ur name" class="rounded" id="name">
+
+                        <p class="mt-5">ENTER UR MAIL:</p>
+                        <div class="w-100"></div>
+                        <input type="text" placeholder="@mail.com" class="rounded" id="mail">
+                        <div class="mt-5 rounded btni" onclick="msg()">
+                            SUBMIT
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.js"></script>
+</body>
+
+</html>
